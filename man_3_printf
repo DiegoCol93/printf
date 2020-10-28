@@ -1,0 +1,85 @@
+File Edit Options Buffers Tools Nroff Text Help
+.\" DO NOT MODIFY THIS FILE!
+.TH _PRINTF "1" "26 oct 2020" "GNU" "_printf man page"
+
+.SH NAME
+
+   _printf \- format and print data
+
+.SH SYNOPSIS
+.B _printf
+        \fIFORMAT \fR[\fIARGUMENT\fR]...
+.br
+.B _printf
+        \fIOPTION\fR
+.SH DESCRIPTION
+_printf is an emulation of printf.
+.PP
+Produces output according to a format, such as the original
+.TP
+      \fB\-\-help\fR
+display this help and exit
+.TP
+      \fB\-\-version\fR
+output version information and exit
+.PP
+FORMAT controls the output as in C printf. Interpreted sequences are:
+.sp
+As an emulation of the printf function it produce an output according to a format
+.sp
+
+.sp
+        Return:
+.sp
+The number of characters printed (excluding the null byte used to end output to strings)
+.sp
+       Output:
+.sp
+The _printf write output to stdout, the standard output stream.
+
+.sp
+        Format:
+
+.SH
+.sp
+This function receives as arguments a string, which goes between quotes "" For example it is used in this way:
+_printf("We are in the best programming school"); and its screen impression would be : We are in the best programming school.
+.SH OPTIONS
+.sp
+This _printf function apart from receiving string we can also use it to receive what we invoke.
+.I conversion specifiers.
+When it receives a string the argument will be given the % followed by a conversion format which will be between double quotes, according to the type,
+it will print on screen the corresponding.
+.sp
+.sp
+.PP
+After % it will follow the formatting and a comma (,) which is separated from the argument and is a variable that has to be of the same type as the formatting
+in the argument.
+.sp
+
+Invoking and its specifiers:
+
+.sp
+_printf("%formart", type of variable);
+.sp
+Types of Conversion Specifiers
+.sp
+	%c Prints a single character.
+.sp
+	%s Prints an entire string
+.sp
+	%d, %i Prints an integer.
+.sp
+	%b Prints an integer in binary format.
+.sp
+	%u Prints an unsigned integer.
+.sp
+	%o Prints an octal integer.
+.sp
+	%x, %X Prints an hexadecimal integer.
+.SH     SEE ALSO
+.sp
+
+.SH AUTHOR
+Juan Carlos Hernandez, Diego Lopez and Julio Cesar Arenas Cohort 13, Holberton school.
+
