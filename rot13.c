@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * printr13 - Encodes string into rot13
+ * printR13 - Encodes string into rot13
  * @s: Target String.
  *
  * Return: Encoded string.
