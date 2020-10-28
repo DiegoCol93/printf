@@ -4,7 +4,7 @@
  * @c: char to print
  * Return: always 1
  */
-int printcha(va_list c)
+int printCha(va_list c)
 {
 	char ch = va_arg(c, int);
 
@@ -16,7 +16,7 @@ int printcha(va_list c)
  * @s: string to print
  * Return: bytes printed
  */
-int printstr(va_list s)
+int printStr(va_list s)
 {
 	int len;
 	char *str;
