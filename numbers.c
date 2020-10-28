@@ -6,7 +6,7 @@
  *
  * Return: Number of bytes printed.
  */
-int printnum(va_list n)
+int printNum(va_list n)
 {
 	unsigned int i, abs, abs1, digit, digit1, div = 1, num, last;
 	int number, len = 0;
