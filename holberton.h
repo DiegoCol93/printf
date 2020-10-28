@@ -5,7 +5,6 @@
 #include <stdarg.h>
 #include <stddef.h>
 #include <unistd.h>
-
 /**
  * struct arg_s - args structure
  *
