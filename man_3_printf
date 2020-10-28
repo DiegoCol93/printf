@@ -35,6 +35,8 @@ As an emulation of the printf function it produce an output according to a forma
 .sp
 The number of characters printed (excluding the null byte used to end output to strings)
 .sp
+If unable to print, returns -1 as error. 
+.sp
        Output:
 .sp
 The _printf write output to stdout, the standard output stream.
