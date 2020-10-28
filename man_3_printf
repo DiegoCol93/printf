@@ -8,6 +8,8 @@ File Edit Options Buffers Tools Nroff Text Help
 
 .SH SYNOPSIS
 .B _printf
+        #include "holberton.h"
+	
         \fIFORMAT \fR[\fIARGUMENT\fR]...
 .br
 .B _printf
