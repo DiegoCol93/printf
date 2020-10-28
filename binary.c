@@ -6,7 +6,7 @@
  *
  * Return: Number of bytes.
  */
-int printbin(va_list b)
+int printBin(va_list b)
 {
 	int i, nbyte = 0;
 	unsigned int buff[1024], n;
