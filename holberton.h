@@ -18,11 +18,11 @@ typedef struct arg_s
 	int (*f)();
 } arg_t;
 int _printf(const char *format, ...);
-int printcha(va_list);
-int printstr(va_list);
-int printnum(va_list);
-int printbin(va_list);
-int printr13(va_list);
-int printrev(va_list);
+int printCha(va_list);
+int printStr(va_list);
+int printNum(va_list);
+int printBin(va_list);
+int printR13(va_list);
+int printRev(va_list);
 
 #endif /* _HOLBERTON_H_ */
