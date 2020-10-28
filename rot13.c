@@ -5,7 +5,7 @@
  *
  * Return: Encoded string.
  */
-int printr13(va_list s)
+int printR13(va_list s)
 {
 	int i, j, len = 0;
 	char chs[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"};
