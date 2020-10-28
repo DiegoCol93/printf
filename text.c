@@ -12,7 +12,7 @@ int printCha(va_list c)
 	return (1);
 }
 /**
- * printstr - printstring
+ * printStr - printstring
  * @s: string to print
  * Return: bytes printed
  */
