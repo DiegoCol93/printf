@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * printcha - print a char
+ * printCha - print a char
  * @c: char to print
  * Return: always 1
  */
