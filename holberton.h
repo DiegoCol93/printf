@@ -23,5 +23,4 @@ int printNum(va_list);
 int printBin(va_list);
 int printR13(va_list);
 int printRev(va_list);
-
 #endif /* _HOLBERTON_H_ */
