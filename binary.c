@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * printbin - Prints a number in a binary form.
+ * printBin - Prints a number in a binary form.
  *
  * @b: Input number.
  *
