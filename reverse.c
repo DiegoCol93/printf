@@ -6,7 +6,7 @@
  *
  * Return: reversed string
  */
-int printrev(va_list s)
+int printRev(va_list s)
 {
 	int i, len;
 	char *str, *n = "(null)";
